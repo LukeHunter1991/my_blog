@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/form.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h3>🌞</h3>
+    </header>
+    <main>
+        <section id="section-left">
+            <div id="round">
+                <h1>My First Blog</h1>
+            </div>
+        </section>
+        <section id="section-right">
+            <h2>Whats on your mind?</h2>
+            <form id="blog-form" method="POST">
+                <input type="text" placeholder="Username" id="username" />
+                <input type="text" placeholder="Blog title" id="title" />
+                <input type="textfield" placeholder="What have you got to say?" id="blog-text" />
+                <button id="submit">Submit</button>
+            </form>
+        </section>
+    </main>
 </body>
 </html>
