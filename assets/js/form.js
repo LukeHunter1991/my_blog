@@ -3,7 +3,7 @@ const titleEl = document.querySelector('#title');
 const blogTextEl = document.querySelector('#blog-text');
 const submitBtn = document.querySelector('#submit');
 
-
+let blogCollection = [];
 
 submitBtn.addEventListener('click', function(event) {
 
@@ -15,5 +15,6 @@ submitBtn.addEventListener('click', function(event) {
         blogText: blogTextEl.value
     }
 
-    localStorage.setItem('blog', JSON.stringify(blogPost));
+    blogCollection.push(blogPost);
+    localStorage.setItem('blog', JSON.stringify(blogCollection));
 });
