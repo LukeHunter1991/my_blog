@@ -1,0 +1,28 @@
+/* Most common styles set up to be changed easily, including light and dark */
+:root {
+    --color-text-dark: rgb(178, 231, 127);
+    --color-background-dark: rgb(24, 22, 22);
+    --color-text-light: rgb(10, 2, 19);
+    --color-background-light: rgb(215, 196, 236);
+}
+
+* {
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.3s;
+}
+
+header {
+    display: block;
+    padding: 15px;
+}
+
+header h2 {
+    float: right;
+}
+
+main {
+    display: flex;
+}
+
