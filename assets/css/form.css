@@ -1,14 +1,26 @@
+header {
+    min-height: 10vh;
+    border-bottom: solid;
+    margin: 10px;
+}
+
+main {
+    display: flex;
+}
+
 section {
-    width: 50%;
+    width: 45%;
 }
 
 #section-left {
     float: left;
-    text-align: center;
+    border-right: solid;
+    border-left: solid;
 }
 
 #section-right {
     float: right;
+    margin: 0px 40px; 
 }
 
 #subtitle {
@@ -25,20 +37,32 @@ section {
 
 #round {
     position: relative;
-    height: 450px;
-    width: 450px;
+    height: 600px;
+    width: 600px;
     border-radius: 50%;
     background: repeating-linear-gradient(45deg, #fdba2a, #ffc07c 2.5%, #f69d3c 4%);
+    margin: 10px 0px 0px 3vw;
 }
 
 #round div {
     position: absolute;
-    left: 15px;
-    bottom: 200px;
+    left: 55px;
+    bottom: 285px;
     text-align: center;
 }
 
 h1 {
-    font-size: 3rem;
-    line-height: 3rem;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+}
+
+#blog-text {
+    height: 200px;
+    text-align: center;
+}
+
+#submit {
+    color: aliceblue;
+    background-color: black;
+    min-height: 6dvb;
 }

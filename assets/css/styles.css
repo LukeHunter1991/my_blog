@@ -39,3 +39,8 @@ main {
     display: flex;
 }
 
+#issue {
+    color: red;
+    font-style: italic;
+}
+
