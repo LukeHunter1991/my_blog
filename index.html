@@ -8,23 +8,28 @@
     <link rel="stylesheet" href="./assets/css/form.css">
     <title>Blog Form</title>
 </head>
-<body>
+<body class="light">
     <header>
-        <h2>🌞</h2>
+        <h2 data-status="light" id="display-toggle">🌞</h2>
     </header>
     <main>
         <section id="section-left">
             <div id="round">
-                <h1>My First Blog</h1>
+                <div>
+                    <h1>My First Blog</h1>
+                </div>
             </div>
         </section>
         <section id="section-right">
-            <h2>Whats on your mind?</h2>
+            <h2 id="subtitle">Whats on your mind?</h2>
             <form id="blog-form" method="POST">
-                <input type="text" placeholder="Username" id="username" />
-                <input type="text" placeholder="Blog title" id="title" />
-                <input type="textfield" placeholder="What have you got to say?" id="blog-text" />
-                <button id="submit">Submit</button>
+                <label for="usename">Username</label>
+                <input type="text" placeholder="Username" id="username" class="form-element"/>
+                <label for="title">Blog Title</label>
+                <input type="text" placeholder="Blog title" id="title" class="form-element"/>
+                <label for="blog-text">Content</label>
+                <input type="textfield" placeholder="What have you got to say?" id="blog-text" class="form-element"/>
+                <button id="submit" class="form-element">Submit</button>
             </form>
         </section>
     </main>

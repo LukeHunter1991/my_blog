@@ -1,0 +1,44 @@
+section {
+    width: 50%;
+}
+
+#section-left {
+    float: left;
+    text-align: center;
+}
+
+#section-right {
+    float: right;
+}
+
+#subtitle {
+    margin: 30px 0;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+}
+.form-element {
+    margin: 15px 0;
+    width: 100%;
+    display: block;
+}
+
+#round {
+    position: relative;
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    background: repeating-linear-gradient(45deg, #fdba2a, #ffc07c 2.5%, #f69d3c 4%);
+}
+
+#round div {
+    position: absolute;
+    left: 15px;
+    bottom: 200px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    line-height: 3rem;
+}
