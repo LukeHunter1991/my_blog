@@ -23,16 +23,20 @@
         <section id="section-right">
             <h2 id="subtitle">Whats on your mind?</h2>
             <form id="blog-form" method="POST">
-                <label for="usename">Username</label>
+                <label for="username">Username</label>
                 <input type="text" placeholder="Username" id="username" class="form-element"/>
                 <label for="title">Blog Title</label>
                 <input type="text" placeholder="Blog title" id="title" class="form-element"/>
                 <label for="blog-text">Content</label>
+                <div>
+                    <p id="issue"></p>
+                </div>
                 <input type="textfield" placeholder="What have you got to say?" id="blog-text" class="form-element"/>
                 <button id="submit" class="form-element">Submit</button>
             </form>
         </section>
     </main>
     <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/logic.js"></script>
 </body>
 </html>
