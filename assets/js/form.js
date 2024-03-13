@@ -11,10 +11,6 @@ submitBtn.addEventListener('click', function(event) {
 
     event.preventDefault();
 
-    console.log(usernameEl);
-    console.log(titleEl);
-    console.log(blogTextEl);
-
     if (usernameEl.value === ""|| titleEl.value === ""|| blogTextEl.value === "") {
         issueEL.textContent = 'Please provide a username, title, and some blog text'
     } else {
