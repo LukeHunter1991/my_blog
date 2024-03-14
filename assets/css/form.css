@@ -1,3 +1,4 @@
+/* Creates full page width border around header. */
 header {
     min-height: 10vh;
     border-bottom: solid;
@@ -8,10 +9,12 @@ main {
     display: flex;
 }
 
+/* Both sections have a width of 45% to allow some space between the elements.*/
 section {
     width: 45%;
 }
 
+/* Aligns this section to the left and creates border line between this and the right section. */
 #section-left {
     float: left;
     border-right: solid;
@@ -23,18 +26,22 @@ section {
     margin: 0px 40px; 
 }
 
+/* Affects sub heading above form in right section. */
 #subtitle {
     margin: 30px 0;
     text-align: center;
     font-size: 1.5rem;
     line-height: 1.5rem;
 }
+
+/* Basic form styling. */
 .form-element {
     margin: 15px 0;
     width: 100%;
     display: block;
 }
 
+/* Styling for round div in left section. */
 #round {
     position: relative;
     height: 600px;
@@ -56,10 +63,12 @@ h1 {
     line-height: 3.5rem;
 }
 
+/* Creates a larger text field for the blog content. */ 
 #blog-text {
     height: 200px;
 }
 
+/* Styling for the form submit button. */
 #submit {
     color: aliceblue;
     background-color: black;
