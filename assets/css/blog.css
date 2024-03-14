@@ -1,3 +1,4 @@
+/* Set up header with bold title on the left and back button + dark mode toggle to the right. */
 h1 {
     font-size: 3rem;
     margin: 20px 0;
@@ -12,13 +13,6 @@ header {
 
 #back {
     float: right;
-    text-decoration: none;
-    background-color: lightblue;
-    color: black;
-    padding: 4px 12px;
-    border-style: groove;
-    border-radius: 10px;
-    font-style: normal;
 }
 
 #display-toggle {
@@ -26,6 +20,7 @@ header {
     margin-right: 80px;
 }
 
+/* Section acts as a container for the blog title, blog content, and an individual footer. */
 section {
     display: block;
     border-style: solid;
@@ -40,7 +35,7 @@ h3 {
     padding: 5px;
 }
 
-p {
+section p {
     padding: 20px;
 }
 
@@ -50,10 +45,29 @@ section footer {
     padding: 5px;
 }
 
+/* Refers to the main footer of the page rather than the individual blog footers. */
 #page-footer {
     font-size: 1rem;
     font-style: italic;
     padding: 5px;
     text-align: center;
-    margin: 20;
+    margin-top: 20px;
+    border: solid;
+}
+
+/* Adds some space between elements in page footer. */
+p {
+    padding: 10px;
+}
+
+/* Styles the back button in the header and the portfolio link ion the footer. */
+.weblink {
+    text-decoration: none;
+    text-decoration: none;
+    background-color: lightblue;
+    color: black;
+    border-style: groove;
+    border-radius: 10px;
+    font-style: normal;
+    padding: 4px 12px;
 }

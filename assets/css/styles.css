@@ -12,10 +12,12 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+/* transition of 0.3 seconds added for a smoother transition between light and dark modes. */
 body {
     transition: 0.3s;
 }
 
+/* Light mode/dark mode styling when the relevant class is applied to the body. */
 .light {
     background-color: var(--color-background-light);
     color: var(--color-text-light);
@@ -26,6 +28,7 @@ body {
     color: var(--color-text-dark);
 }
 
+/* Basic styling consistant accross both pages. */
 header {
     display: block;
     padding: 15px;
@@ -39,6 +42,7 @@ main {
     display: flex;
 }
 
+/* Added issue formatting to styles.css as this is shared between both pages. THis makes it easy to add an error message to the blog.html page later. */
 #issue {
     color: red;
     font-style: italic;
